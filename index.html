@@ -16,7 +16,7 @@
     <header>
     <div class="container container-header">
         <!-- Logo -->
-    <a href="./index.html" class="logo">Web<span class="header-design">Studio</span></a>
+        <a href="./index.html" class="logo">Web<span class="header-design">Studio</span></a>
         <nav class="site-nav list"> 
         <!-- Site-nav -->
         <ul class="list">
@@ -37,12 +37,14 @@
 
         <!-- Hero -->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!-- Feature list -->
-        <section class="section">
+        <section class="section section-features">
         <div class="container">
             <h2 class="feature-title ">Наши преимущества</h2>
           <ul class="feature-list list">
@@ -65,7 +67,7 @@
           </ul>
         </div>
         </section>
-        <section class="section">
+        <section class="section section-stuff">
         <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="image-list list">
@@ -83,23 +85,31 @@
                 <ul class="our-team list">
                     <li class="team-member">
                     <img class="team-photo" src="./images/team_card1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    <h3 class="title">Игорь Демьяненко</h3>
-                    <p class="team-text">Product Designer</p>
+                    <div class="team-description">
+                        <h3 class="title">Игорь Демьяненко</h3>
+                        <p class="team-text">Product Designer</p>
+                    </div>
                     </li>
                     <li class="team-member">
                         <img class="team-photo" src="./images/team_card2.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3 class="title">Ольга Репина</h3>
-                        <p class="team-text">Frontend Developer</p>
+                        <div class="team-description">
+                            <h3 class="title">Ольга Репина</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-member">
                         <img class="team-photo" src="./images/team_card3.jpg" alt=" Николай Тарасов" width="270" height="260">
-                        <h3 class="title">Николай Тарасов</h3>
-                        <p class="team-text">Marketing</p>
+                        <div class="team-description">
+                            <h3 class="title">Николай Тарасов</h3>
+                            <p class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-member">
                         <img class="team-photo" src="./images/team_card4.jpg" alt="Михаил Ермаков" width="270" height="260">
-                        <h3 class="title">Михаил Ермаков</h3>
-                        <p class="team-text">UI Designer</p>
+                        <div class="team-description">
+                            <h3 class="title">Михаил Ермаков</h3>
+                            <p class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>

@@ -15,6 +15,9 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+.head{
+  border-bottom: 1px solid #ECECEC;
+}
 
 .list {
   list-style: none;
@@ -33,11 +36,19 @@ a:visited {
   cursor: pointer;
 }
 
-img{
+img,
+svg {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
+.text,
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .container{
   width: 1200px;
   margin-left: auto;
@@ -46,8 +57,8 @@ img{
 
 }
 .section{
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 ul,ol,li,p,h1,h2,h3,h4,h5,h6{
@@ -142,6 +153,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   text-align: center;
   background-color: var(--tertiary-background-color);
 }
+
 .hero-title {
   color: var(--primary-background-color);
   background-color: var(--tertiary-background-color);
@@ -203,20 +215,26 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 }
 
 /* feature-list */
+.section-features {
+  padding-bottom: 47px;
+}
 .feature-list {
   width:1170px;
   display: flex;
+}
+.features-list .list-item {
+  width: calc((100% - 90px)/4);
 }
 
 .feature-title{
   display: none;
 }
 
-
 .feature-list .title {
   color: var(--title-text-color);
   margin-top: 0px;
   margin-bottom: 10px;
+  width: 270px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -227,6 +245,10 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   line-height: 1.71;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.section-stuff {
+  padding-top: 47px;
 }
 
 /* our-team */
@@ -265,8 +287,10 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .our-team .team-text {
   font-size: 16px;
   line-height: 1.18;
-  margin-top: 0px;
-  margin-bottom: 30px;
+
+}
+.team-description {
+  padding: 30px 10px;
 }
 .list .team-member {
   background-color: var(--primary-background-color);
@@ -285,6 +309,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .footer .logo{
   margin-bottom: 20px;
   display: inline-block;
+  margin-right: 0;
 }
 .footer {
   background-color: var(--tertiary-background-color);
@@ -383,11 +408,13 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   border: 1px solid #EEEEEE;
 }
 
+.project-description{
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: none;
+}
 
 .card .title {
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -399,9 +426,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .card .text{
   color: var(--primary-text-color);
   margin-top: 4px;
-  margin-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
