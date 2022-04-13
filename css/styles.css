@@ -145,7 +145,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .hero-title {
   color: var(--primary-background-color);
   background-color: var(--tertiary-background-color);
-  width: 696px;
+  max-width: 700spx;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0px;
@@ -156,7 +156,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px #000000;
 }
 
 /* Button */
