@@ -145,6 +145,11 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .hero-title {
   color: var(--primary-background-color);
   background-color: var(--tertiary-background-color);
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 90px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -200,8 +205,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 
 /* feature-list */
 .feature-list {
-  font-size: 14px;
-  line-height: 1.71; 
   width:1170px;
   display: flex;
 }
@@ -210,12 +213,21 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   display: none;
 }
 
+
 .feature-list .title {
   color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.feature-list .text{
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* our-team */
