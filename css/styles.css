@@ -70,9 +70,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .container-header{
   display: flex;
   align-items: center;
-  height: 80px;
-
-  border-bottom: 1px solid #ECECEC;
 }
 
 /* logo */
@@ -97,13 +94,13 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 
 .site-nav .link {
   color: var(--title-text-color);
-
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  margin-top:32px ;
-  margin-bottom: 32px;
+  padding-top:32px ;
+  padding-bottom: 32px;
 }
 
 .list .list-item:not(:last-child){
@@ -219,8 +216,11 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   padding-bottom: 47px;
 }
 .feature-list {
-  width:1170px;
   display: flex;
+}
+
+.list .list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .features-list .list-item {
   width: calc((100% - 90px)/4);
@@ -386,7 +386,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   
 }
 
-.filters-list .filter{
+.filters-list .filter:not(:last-child) {
   margin-right: 8px;
 }
 .btn{
@@ -401,6 +401,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 .portfolio-list{
   display: flex;
   flex-wrap: wrap;
+  /* gap: 30px; */
 }
 
 .portfolio-item{
@@ -425,7 +426,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
 
 .card .text{
   color: var(--primary-text-color);
-  margin-top: 4px;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -435,9 +435,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   display: block
 }
 
-.card > img{
-  margin-bottom: 20px;
-}
+
 .portfolio-item:not(:nth-child(3n)){
 
   margin-right: 30px;
