@@ -97,7 +97,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   display: block;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   padding-top:32px ;
   padding-bottom: 32px;
@@ -139,7 +139,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -274,10 +274,6 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
-}
-
-.our-team .team-photo{
-  margin-bottom: 30px;
 }
 
 .our-team{
